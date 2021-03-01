@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Fish and Waste</string>
+
+    <string name="game_over">GAME OVER</string>
+    <string name="restart">Restart</string>
+    <string name="fish_and_waste">Fish and Waste</string>
+    <string name="startScreenFish">Happy fish on the start screen</string>
+    <string name="pauseText">Pause</string>
+    <string name="menuText">Menu</string>
+    <string name="startText">Start</string>
+    <string name="highScoreBoardText">HighScore Board</string>
+    <string name="back_to_start_menu">Back to menu</string>
+    <string name="add_to_scoreboard">Add highscore</string>
+    <string name="usernameInput">Username</string>
+    <string name="highscoresTitle">Highscores</string>
+    <string name="rankHighscore"> &#032; Rank:</string>
+    <string name="usernameHighscore"> &#032; Username:</string>
+    <string name="scoreHighscore"> &#032; Score:</string>
+    <string name="infoButtonText">Info</string>
+    <string name="sodacan_itemDesc">Picture of sodacan item</string>
+    <string name="sodacanInfoText"> Soda cans are many and they \ndestroy the environment, due to \ntheir material structure consisting \nof mostly aluminum. If hit by \nsoda can player will lose 1 life \npoint. If avoided gain 10 points.</string>
+    <string name="toxic_wasteDesc">toxic waste</string>
+    <string name="toxicWasteInfoText">Toxic waste is not as frequent or \nfast as soda cans, but makes up \nfor it with their size and damage \noutput. If hit by toxic waste player \nwill lose 2 life points. If avoided \ngain 25 points.</string>
+    <string name="lifePointInfoText">Pick a heart up to gain a life back. \nIf already full health, then gain \n40 points. (maximum lives is 3)</string>
+    <string name="futurepatchInfoText">Note: More items next patch</string>
+</resources>

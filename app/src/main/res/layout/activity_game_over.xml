@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GameOverActivity"
+    android:background="@drawable/gameoverwater"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_over"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        />
+
+    <Button
+        android:onClick="restartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:background="@drawable/borderbutton"
+        android:text="@string/restart"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="290sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalScore"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:typeface="serif"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="365sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="430sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:weightSum="10"
+        >
+
+        <EditText
+            android:id="@+id/addUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textAlignment="viewStart"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="start"
+            android:maxLength="13"
+            android:paddingEnd="40dp"
+            android:paddingStart="0dp"
+            android:hint="@string/usernameInput"
+            app:backgroundTint="@android:color/white"
+            android:layout_weight="7"
+            android:inputType="text"
+            android:typeface="serif"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:onClick="addHighscore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/borderbutton"
+            android:text="@string/add_to_scoreboard" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textSize="17sp"
+        android:typeface="serif"
+        android:drawableStart="@drawable/backarrow"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/back_to_start_menu"
+        android:onClick="backToStartMenu"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

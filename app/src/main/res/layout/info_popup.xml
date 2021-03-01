@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/waterblue"
+    android:weightSum="10"
+    android:baselineAligned="false">
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sodacan"
+            android:layout_marginTop="25dp"
+            android:contentDescription="@string/sodacan_itemDesc" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toxicwaste"
+            android:layout_marginTop="75dp"
+            android:contentDescription="@string/toxic_wasteDesc" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lifepoint"
+            android:layout_marginTop="75dp"
+            android:contentDescription="@string/toxic_wasteDesc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_weight="7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sodacanInfoText"
+            android:typeface="serif"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toxicWasteInfoText"
+            android:typeface="serif"
+            android:textColor="@color/black"
+            android:layout_marginTop="35dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/lifePointInfoText"
+            android:typeface="serif"
+            android:layout_marginTop="60dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/lightGrey"
+            android:layout_marginBottom="10dp"
+            android:text="@string/futurepatchInfoText"
+            android:typeface="serif"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
